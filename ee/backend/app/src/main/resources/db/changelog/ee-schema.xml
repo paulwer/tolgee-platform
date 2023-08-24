@@ -54,4 +54,7 @@
             <column name="instance_id" type="varchar(255)"/>
         </addColumn>
     </changeSet>
+    <changeSet author="jenik (generated)" id="1692875449616-1">
+        <dropColumn columnName="instance_id" tableName="ee_subscription"/>
+    </changeSet>
 </databaseChangeLog>
